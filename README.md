@@ -53,10 +53,10 @@ For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the 
 
 Sources:
 
-The structure on how to rename lists in the api was obtained from Xpert Learning Assistant. 
+The structure regarding how to rename lists in the api was obtained from Xpert Learning Assistant. 
 Example:
 all_results_tobs_start_date_end= [{'Min Temperature': result[0], 'Average Temperature': result[1],'Max Temperature': result[2]} for result in results_tobs_start_date_end]
 
-The structure how to name the routes when dates are involved was obtained from Xpert Learning Assistant
+The structure regarding how to name the routes when dates are involved was obtained from Xpert Learning Assistant
 f"/api/v1.0/&lt;start&gt;<br/>"
 f"/api/v1.0/&lt;start&gt;/&lt;end&gt;<br/>
